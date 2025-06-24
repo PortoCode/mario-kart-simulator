@@ -1,5 +1,4 @@
 const { getRandomBlock, TrackSegmentType } = require("./track");
-const { createPlayer } = require("./player");
 
 async function rollDice() {
   return Math.floor(Math.random() * 6) + 1;
@@ -71,6 +70,7 @@ async function playRace(player1, player2) {
     } else {
       console.log("It's a tie! No points awarded.");
     }
+    console.log("-----------------------------");
   }
 }
 
