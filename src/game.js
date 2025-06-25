@@ -70,6 +70,7 @@ async function playRace(player1, player2) {
     } else {
       console.log("It's a tie! No points awarded.");
     }
+
     console.log("-----------------------------");
   }
 }
